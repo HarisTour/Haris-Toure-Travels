@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haris Tour and Travels</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #fff;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #007BFF;
+    }
+    section {
+      padding: 2rem;
+    }
+    .hero {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Patratu_valley.jpg/800px-Patratu_valley.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    form input, form textarea, form button {
+      display: block;
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Haris Tour and Travels</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#destinations">Destinations</a>
+      <a href="#booking">Booking</a>
+        <a href="#Contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Explore Ranchi with Ease</h2>
+    <p>Your comfort is our priority – affordable and convenient travel in and around Ranchi</p>
+  </section>
+
+  <section id="about">
+    <div class="card">
+      <h3>About Us</h3>
+      <p>Haris Tour and Travels is a trusted name in Ranchi for local travel. We provide reliable transportation with fixed and fair pricing, ensuring a smooth travel experience across the city's beautiful spots.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="card">
+      <h3>Our Services</h3>
+      <p>We offer full-day vehicle hire at ₹1200 as fare, and ₹96 for every 8 km to cover fuel costs. Book with us for hassle-free tours around Ranchi.</p>
+    </div>
+  </section>
+
+  <section id="destinations">
+    <div class="card">
+      <h3>Featured Destinations in Ranchi</h3>
+      <ul>
+        <li>Patratu Valley</li>
+        <li>Bhagwan Birsa Munda Zoo Ormanjhi</li>
+        <li>Water Park Ormanjhi</li>
+        <li>Pahari Temple RAnchi</li>
+        <li>Jagannath Mandir</li>
+        <li>Johna Fall</li>
+        <li>Devri Mandir</li>
+        <li>Rock Garden</li>
+        <li>Hundru Falls</li>
+        <li>Dassam Falls</li>
+        <li>Tagore Hill</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="booking">
+    <div class="card">
+      <h3>Booking Form</h3>
+      <form action="#" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="date">Travel Date</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="pickup">Pickup Location</label>
+        <input type="text" id="pickup" name="pickup" required />
+
+        <label for="message">Additional Message</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Book Now</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h3>Contact Us</h3>
+      <p>Email: sohail.vccl@gmail.com</p>
+      <p>Phone: +91-9123145394</p>
+      <p>Location: Ranchi, Jharkhand</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Haris Tour and Travels. All rights reserved.</p>
+  </footer>
+</body>
+</html>
